@@ -1,0 +1,34 @@
+#level_one = [
+#    '                                                                                                                                                                                                                                ',
+#    '                                                                                                                                                                                                                                ',
+#    '                                                                                                                                                                                                                                ',
+#    '                                                                                                                                                                                                     F                          ',
+#    '                      C                                                         BBBBBBBB   BBBC              M           BBB    BCCB                                                                 F                          ',
+#    '                                                                                                                                                                                           SS        F                          ',
+#    '                                                                                                                                                                                          SSS        F                          ',
+#    '                                                                H                                                                                                                        SSSS        F                          ',
+#    '                C   BMBCB                     PP         PP                  BMB              N     BI    C  C  C     B          BB      S  S          SS  S                            SSSSS        F                          ',
+#    '                                      PP      PP         PP                                                                             SS  SS        SSS  SS           BBCB           SSSSSS        F                          ',
+#    '                            PP        PP      PP         PP                                                                            SSS  SSS      SSSS  SSS     PP              PP SSSSSSS        F                          ',
+#    '                            PP        PP      PP         PP                                                                           SSSS  SSSS    SSSSS  SSSS    PP              PPSSSSSSSS        S                          ',
+#    'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  XXXXXXXXXXXXXXX   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+#    'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  XXXXXXXXXXXXXXX   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX']
+
+level_one = [
+    '                                                                                                                                                                                                                                  ',
+    '                                                                                                                                                                                                                                  ',
+    '                                                                                                                                                                                                                                  ',
+    '                                                                                  G G                                                                                                                  T                          ',
+    '                        Q                                                         BBBBBBBB   BBBQ              Q           BBB    BQQB                                                                 P                          ',
+    '                                                                                                                                                                                             SS        P                          ',
+    '                                                                                                                                                                                            SSS        P                          ',
+    '                                                                  I                                                                                                                        SSSS        P                          ',
+    '                  Q   BQBQB                     LR         LR                  BQB              B     BB    Q  Q  Q     B          BB      S  S          SS  S                            SSSSS        P                          ',
+    '  1                                     LR      lr  1      lr                                      1                                      SS  SS    1   SSS  SS           BBQB           SSSSSS    1   P                          ',
+    ' 032               1          LR        lr      lr 032     lr     1                               032             1                      SSS  SSS  032 SSSS  SSS   1 LR              LR SSSSSSS   032  P          1               ',
+    '05442M            032   G     lr        lrG     lr03432G G lr    032                             03452G G        032G G     G G  G G    SSSS  SSSS0345SSSSS  SSSS 032lr         G G  lrSSSSSSSS  03452 S         032              ',
+    'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  XXXXXXXXXXXXXXX   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+    'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  XXXXXXXXXXXXXXX   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX']
+tile_size = 32
+screen_width = 1200
+screen_height = tile_size * len(level_one)
